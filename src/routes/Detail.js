@@ -18,11 +18,11 @@ function Detail() {
   console.log(detail);
   return (
     <div>
-      <h1>{detail.title}</h1>
       {loading ? (
         "Loading..."
       ) : (
         <div>
+          <h1>{detail.title}</h1>
           <img src="https://yts.mx/assets/images/movies/maharashtra_shaheer_2023/medium-cover.jpg" />
           <p>{detail.description_full}</p>
           <ul>
