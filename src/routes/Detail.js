@@ -23,7 +23,7 @@ function Detail() {
       ) : (
         <div>
           <h1>{detail.title}</h1>
-          <img src="https://yts.mx/assets/images/movies/maharashtra_shaheer_2023/medium-cover.jpg" />
+          <img src={detail.medium_cover_image} />
           <p>{detail.description_full}</p>
           <ul>
             {detail.genres.map((genre) => (
